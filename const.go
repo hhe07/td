@@ -9,8 +9,8 @@ type ViewMode uint8
 
 const (
 	Incomplete ViewMode = iota
-	All
 	Compacted
+	All
 )
 
 type AddressableType uint8
